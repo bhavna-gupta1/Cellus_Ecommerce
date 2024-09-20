@@ -11,6 +11,11 @@ import Cart from './pages/Cart/Cart';
 import Dashboard from './pages/Admin/Dashboard/Dashboard';
 import NoPage from './pages/Nopg/Nopage';
 import MyState from './context/data/MyState';
+import Login from './pages/registeration/Login';
+import Signup from './pages/registeration/Signup';
+import ProductInfo from './pages/productinfo/ProductInfo';
+import AddProduct from './pages/Admin/pages/AddProduct';
+import UpdateProduct from './pages/Admin/pages/UpdateProduct';
 
 
 function App() {
@@ -23,6 +28,11 @@ function App() {
         <Route path="/cart" element={<Cart/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/*" element={<NoPage/>} />
+        <Route path='/login' element={<Login/>}/>
+        <Route path='signup' element={<Signup/>}/>
+        <Route path="/productinfo/:id" element={<ProductInfo />} /> 
+        <Route path='/addproduct' element={<AddProduct/>}/>
+        <Route path='updateproduct' element={<UpdateProduct/>}/>
       </Routes>
     </Router>
   </MyState>
