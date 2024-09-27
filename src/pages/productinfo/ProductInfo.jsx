@@ -27,7 +27,7 @@ function ProductInfo() {
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={2}
-                                        className="w-4 h-4 text-indigo-500"
+                                        className="w-4 h-4 text-primary"
                                         viewBox="0 0 24 24"
                                     >
                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -38,7 +38,7 @@ function ProductInfo() {
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={2}
-                                        className="w-4 h-4 text-indigo-500"
+                                        className="w-4 h-4 text-primary"
                                         viewBox="0 0 24 24"
                                     >
                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -49,7 +49,7 @@ function ProductInfo() {
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={2}
-                                        className="w-4 h-4 text-indigo-500"
+                                        className="w-4 h-4 text-primary"
                                         viewBox="0 0 24 24"
                                     >
                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -60,7 +60,7 @@ function ProductInfo() {
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={2}
-                                        className="w-4 h-4 text-indigo-500"
+                                        className="w-4 h-4 text-primary"
                                         viewBox="0 0 24 24"
                                     >
                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -71,7 +71,7 @@ function ProductInfo() {
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                         strokeWidth={2}
-                                        className="w-4 h-4 text-indigo-500"
+                                        className="w-4 h-4 text-primary"
                                         viewBox="0 0 24 24"
                                     >
                                         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
@@ -124,12 +124,12 @@ function ProductInfo() {
                                 tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean
                                 shorts keytar banjo tattooed umami cardigan.
                             </p>
-                         
+                         555555555
                             <div className="flex">
                                 <span className="title-font font-medium text-2xl text-gray-900">
                                     $58.00
                                 </span>
-                                <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                                <button className="flex ml-auto text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-pimary rounded">
                                     Add To Cart
                                 </button>
                                 <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
@@ -153,5 +153,7 @@ function ProductInfo() {
         </Layout>
     )
 }
+
+
 
 export default ProductInfo

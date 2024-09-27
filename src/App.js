@@ -16,6 +16,8 @@ import Signup from './pages/registeration/Signup';
 import ProductInfo from './pages/productinfo/ProductInfo';
 import AddProduct from './pages/Admin/pages/AddProduct';
 import UpdateProduct from './pages/Admin/pages/UpdateProduct';
+import Allproducts from './pages/All products/Allproducts';
+import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
@@ -23,16 +25,18 @@ function App() {
   <MyState>
      <Router>
       <Routes>
+        
         <Route path="/" element={<Home/>} />
-        <Route path="/order" element={<Order/>} />
+        {/* <Route path="/order" element={<Order/>} /> */}
         <Route path="/cart" element={<Cart/>} />
-        <Route path="/dashboard" element={<Dashboard/>} />
+        {/* <Route path="/dashboard" element={<Dashboard/>} /> */}
         <Route path="/*" element={<NoPage/>} />
-        <Route path='/login' element={<Login/>}/>
-        <Route path='signup' element={<Signup/>}/>
-        <Route path="/productinfo/:id" element={<ProductInfo />} /> 
-        <Route path='/addproduct' element={<AddProduct/>}/>
-        <Route path='updateproduct' element={<UpdateProduct/>}/>
+        {/* <Route path='/login' element={<Login/>}/> */}
+        {/* <Route path='signup' element={<Signup/>}/> */}
+        <Route path="/productinfo/:id" element={<ProductInfo />} />
+        <Route path='/allproducts' element={<Allproducts/>}/> 
+        {/* <Route path='/addproduct' element={<AddProduct/>}/> */}
+        {/* <Route path='updateproduct' element={<UpdateProduct/>}/> */}
       </Routes>
     </Router>
   </MyState>

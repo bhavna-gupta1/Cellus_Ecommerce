@@ -1,4 +1,3 @@
-
 import React ,{useContext} from 'react'
 import Layout from '../../components/Layout/Layout'
 import myContext from '../../context/data/MyContext'
@@ -19,7 +18,7 @@ function Home() {
  <HeroSection/>
  <Filter/>
  <ProductCard/>
- <Testimonial/>
+ {/* <Testimonial/> */}
     </Layout>
   )
 }

@@ -2,10 +2,14 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <div>
-        <img src="https://static.vecteezy.com/system/resources/previews/004/299/835/original/online-shopping-on-phone-buy-sell-business-digital-web-banner-application-money-advertising-payment-ecommerce-illustration-search-free-vector.jpg" alt="" />
-    </div>
+    <div class="flex justify-center items-center bg-lightblue ">
+  <img 
+    src="https://img.freepik.com/premium-vector/customer-satisfaction-online-mobile-shop-woman-with-rating-plank-big-smartphone-shopping_985641-492.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724112000&semt=ais_hybrid" 
+    alt="E-commerce" 
+    class="w-90 h-90 object-cover"
+  />
+</div>
   )
 }
-
+ 
 export default HeroSection
